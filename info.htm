@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Info - Netflix</title>
+    <script src="netflix.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="log.ico">
+    <link href="netflix.css" rel="stylesheet" type="text/css">
+    <style>
+        body{
+            background-color: black;
+            color:white;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            font-family: calibri;
+            
+        }
+        #content{
+            border:2px solid rgba(255, 255, 255, 0.859);
+            height: 300px;
+            width:1300px;
+            padding: 20px;
+            position: absolute;
+            left:30px;
+            top:100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="logo"><a href="https://www.netflix.com/browse" target="_self"><img height="55px" width="110px" src="netflix.png"></a></div>
+    <div id="menu">
+    <div id="menu-bar">
+    <ul>
+    <li><a class="menu-element" href="index.html" target="_self" >Home	</a></li>
+    <li><a class="menu-element" href="tvshows.htm" target="_self">TV shows</a></li>
+    <li><a class="menu-element" href="movies.htm">Movies</a></li>
+    <li><a class="menu-element" href="newp.htm">New & Popular</a></li>
+    <li><a class="menu-element" href="info.htm">Info</a></li>
+    </ul>
+    </div>
+    <div id="profile">
+    <form>
+    <input type="text" name="search">
+    </form>
+    <img id="noti" onmouseover="nvis()"  height="36px" width=36px" src="noti.png">
+    <div id="nshow" onmouseleave="ninvis()" style="background-color: #1a1818f8;">No New notifications</div>
+    <img id="prlogo" onmouseover="vis()"  height="36px" width=36px" src="logo.png">
+    <div id="show" onmouseleave="invis()" style="background-color: #1a1818f8;">
+        <table width="200px"  cellspacing="10px" cellpadding="4px">
+    <tr><td><a href="https://www.netflix.com/in/"  target="_self">Manage proflie</a></td></tr>
+    <tr><td><a href="https://www.netflix.com/in/" target="_self">Transfer profile</a></td></tr>
+    <tr><td><a href="https://www.netflix.com/in/" target="_self">Account</a></td></tr>
+    <tr><td><a href="https://www.netflix.com/in/" target="_self">Help Center</a></td></tr>
+    <tr><td><a href="https://www.netflix.com/in/" target="_self">Sign In</a></td></tr>
+    </table>
+    </div>
+     </div> 
+     <div id="content">
+        <h2>Welcome to Netflix </h2>
+    #Netflix & chill<br>
+    This is an overlay of official netflix site,which i created using my far knowledge on html webpages,Cascading stylesheets and javascript
+    used to create websites.<br>
+    This website almost replicates netflix website accurately.As we know you can't watch netflix videos without subscription
+    and you can't look into netflix website without account,if consiously speaking i solved the second issue but don't think that
+    you can watch netflix series here.<br>
+    You will be re-directed to youtube video results of respective image tiles on clicking them and if you have your netflix account 
+    signedin on your device you can get netflix search results in that search box else you will be redirected to SignIn page of netflix.
+
+</div>
+</body>
+</html>
